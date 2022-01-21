@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{FDC6C177-87C1-45A6-966D-B0A2C46A160C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Blood_220Flow_220Model PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Blood Flow Model/Thread.cs">
+    <Files>
+      <File FileName="Blood Flow Model/Program.cs" Line="153" Column="37" />
+      <File FileName="Blood Flow Model/BFSimulation.cs" Line="500" Column="24" />
+      <File FileName="Blood Flow Model/VascularNet.cs" Line="127" Column="28" />
+      <File FileName="Blood Flow Model/IOModule.cs" Line="128" Column="14" />
+      <File FileName="Blood Flow Model/BoundaryConditions.cs" Line="201" Column="23" />
+      <File FileName="Blood Flow Model/Vector1.cs" Line="1" Column="1" />
+      <File FileName="Blood Flow Model/Thread.cs" Line="1" Column="1" />
+      <File FileName="Blood Flow Model/Knot.cs" Line="717" Column="96" />
+      <File FileName="Blood Flow Model/BFMath.cs" Line="1" Column="1" />
+      <File FileName="Blood Flow Model/Node.cs" Line="166" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Blood Flow Model" expanded="True">
+            <Node name="Blood Flow Model" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../Blood Flow Model/Program.cs" line="103" offsetX="1102" offsetY="2040" expression="nodesasd.lumen_sq" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

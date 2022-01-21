@@ -1,0 +1,62 @@
+ASPECTS_BL: 8.0
+DiastolePressure: 10100
+HeartRate: 60
+MeanRightAtrialPressure: 0
+NIHSS_BL: 12.013530977979281
+StrokeVolume: 70
+SystolePressure: 19475.275641452954
+age: 47.44074459103547
+clot-location: MCA
+collaterals: 2.0
+completed: false
+ct_bl_has: true
+dur_erg: 136.983
+dur_oer: 149.238
+dur_onset_groin: 286.221
+eryperc: 26.86
+events:
+- event: baseline
+  models:
+  - label: 1d-blood-flow
+  - label: perfusion_and_tissue_damage
+    type: PERFUSION
+- event: stroke
+  models:
+  - label: place_clot
+  - label: 1d-blood-flow
+  - label: perfusion_and_tissue_damage
+    type: PERFUSION
+- event: treatment
+  models:
+  - label: thrombectomy
+  - label: 1d-blood-flow
+  - evaluate_infarct_estimates: true
+    label: perfusion_and_tissue_damage
+    type: PERFUSION
+  - label: patient-outcome-model
+fibriperc: 73.14
+ica_length_mm: 48.162
+ica_rad_mm: 2.525
+ica_tort: 1.833
+id: 9
+labels:
+  1d-blood-flow: 1d-blood-flow
+  patient-outcome-model: patient-outcome-model
+  perfusion_and_tissue_damage: perfusion-and-tissue-damage
+  place_clot: place-clot
+  thrombectomy: thrombectomy
+left-or-right: R
+m1_rad_mm: 1.659
+name: Kimberly Mestas
+occlsegment_c_short: 3.0
+occlsegment_c_short_num: 5.0
+pipeline_length: 9
+prefix: patient
+premrs: 0.0
+prev_af: 0.0
+prev_dm: 0.0
+prev_str: 0.0
+random_seed: 1
+rr_syst: 146.0769838545248
+sex: 0.0
+sex_long: female

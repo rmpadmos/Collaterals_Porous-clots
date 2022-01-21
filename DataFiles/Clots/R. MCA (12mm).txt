@@ -1,0 +1,2 @@
+Vesselname,Clotlocation(mm),Clotlength(mm),Permeability,Porosity
+"R. MCA",10,12,0,0

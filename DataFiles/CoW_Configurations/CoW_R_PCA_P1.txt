@@ -1,0 +1,86 @@
+ID	Name	Length (mm)	Proximal Radius (mm)	Distal Radius (mm)	Elastic modulus (1e6 Pa)
+1	Ascending Aorta	40	12	12	0.4
+2	Aortic Arch I	20	11.2	11.2	0.4
+3	Brachiocephalic	34	6.2	6.2	0.4
+4	Aortic Arch II	39	11	11	0.4
+5	L. common carotid	208	2.5	2.5	0.4
+6	R. common carotid	177	2.5	2.5	0.4
+7	R. subclavian	34	4.23	4.23	0.4
+8	Thoracic aorta	156	9.99	9.99	0.4
+9	L. subclavian	34	4.23	4.23	0.4
+10	L ext. carotid	177	1.5	1.5	0.8
+11	L int. carotid I	177	2	2	0.8
+12	R int. carotid I	177	2	2	0.8
+13	R ext. carotid	177	1.5	1.5	0.8
+14	R. vertebral	148	1.36	1.36	0.8
+15	R. brachial	422	4.03	4.03	0.4
+16	L. brachial	422	4.03	4.03	0.4
+17	L. vertebral	148	1.36	1.36	0.8
+18	L. PCoA	15	0.73	0.73	1.6
+19	R. PCoA	15	0.73	0.73	1.6
+20	Basilar I	5.6	1.62	1.62	1.6
+21	L. MCA	15.75	1.43	1.43	1.6
+22	R. MCA	15.75	1.43	1.43	1.6
+23	L. ACA, A1	12	1.17	1.17	1.6
+24	R. ACA, A1	12	1.17	1.17	1.6
+25	L. PCA, P1	5	1.07	1.07	1.6
+26	R. PCA, P1	0	1.07	1.07	1.6
+27	L. ACA, A2	13.96	1.2	1.2	1.6
+28	R. ACA, A2	13.96	1.2	1.2	1.6
+29	ACoA	3	0.74	0.74	1.6
+30	L. PCA, P2	6.59	1.05	1.05	1.6
+31	R. PCA, P2	6.59	1.05	1.05	1.6
+32	R. SCA	10	0.78	0.78	1.6
+33	L. SCA	10	0.78	0.78	1.6
+34	R. AICA	10	0.63	0.63	1.6
+35	L. AICA	10	0.63	0.63	1.6
+36	Basilar II	5.6	1.62	1.62	1.6
+37	Pontine I	5	0.2	0.2	1.6
+38	Pontine II	5	0.2	0.2	1.6
+39	Pontine III	5	0.2	0.2	1.6
+40	Pontine IV	5	0.2	0.2	1.6
+41	Pontine V	5	0.2	0.2	1.6
+42	Pontine VI	5	0.2	0.2	1.6
+43	Pontine VII	5	0.2	0.2	1.6
+44	Pontine VIII	5	0.2	0.2	1.6
+45	Pontine IX	5	0.2	0.2	1.6
+46	Pontine X	5	0.2	0.2	1.6
+47	Pontine XI	5	0.2	0.2	1.6
+48	Pontine XII	5	0.2	0.2	1.6
+49	Basilar III	5.6	1.62	1.62	1.6
+50	Basilar IV	5.6	1.62	1.62	1.6
+51	Basilar V	5.6	1.62	1.62	1.6
+52	R. PICA	10	0.63	0.63	1.6
+53	L. PICA	10	0.63	0.63	1.6
+54	R. vertebral II	20	1.36	1.36	0.8
+55	L. vertebral II	20	1.36	1.36	0.8
+
+Bifurcations
+1o 2i 3i
+2o 4i 5i
+3o 7i 6i
+4o 9i 8i
+5o 11i 10i
+6o 13i 12i
+7o 15i 14i
+9o 16i 17i
+11o 21i 23i 18o
+12o 22i 19o 24i
+14o 52i 54i
+17o 53i 55i
+20o 36i 38i 44i
+23o 29i 27i
+24o 29o 28i
+26o 31i 19i
+25o 30i 18i
+36o 49i 39i 45i
+49o 50i 40i 46i
+50o 51i 41i 47i
+51o 25i 26i 32i 33i 42i 48i
+54o 55o 34i 35i 20i 37i 43i
+
+Boundary Nodes
+Inlets: 1i
+Outlets Body: 8o 16o 15o
+Outlets Head: 10o 13o
+Outlets Brain: 21o 22o 27o 28o 30o 31o 32o 33o 34o 35o 52o 53o 37o 38o 39o 40o 41o 42o 43o 44o 45o 46o 47o 48o

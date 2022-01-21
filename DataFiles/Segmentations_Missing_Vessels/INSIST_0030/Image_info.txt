@@ -1,0 +1,4 @@
+Voxel spacing: 0.418 0.418 1.5
+Origin: -104.8,-271.8,1125
+Orientation: RAI
+Dimensions: 512,512,99

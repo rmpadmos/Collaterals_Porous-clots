@@ -1,0 +1,841 @@
+Patient folder: Generated_Patients/patient_0//
+Loading Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Using anatomy files as defined in modelling parameters.
+Only using CoW file.
+Loading anatomy from Generated_Patients/patient_0//1-D_Anatomy_Patient.txt
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Loading Generated_Patients/patient_0//config.xml
+Loading Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Importing Clots.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: /home/raymond/Desktop/repo/1d-blood-flow/Blood_Flow_1D/
+Loading /home/raymond/Desktop/repo/1d-blood-flow/DataFiles//MappingSystemVessels.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: Generated_Patients/patient_0//
+Loading /home/raymond/Desktop/repo/1d-blood-flow/DataFiles//Brava/BH0027_ColorCoded.CNG.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Loading surface: Generated_Patients/patient_0//bf_sim/PialSurface.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Optimizing alignment between the mesh and the outlets.
+Optimization terminated successfully.
+         Current function value: 486.081136
+         Iterations: 333
+         Function evaluations: 549
+[ 1.17228368  3.36490278 -0.14530203  1.31375049  0.05195582  0.01658821
+ -4.80916074]
+Calculating the dual graph.
+Calculating the triangle centers.
+Calculating the connections.
+Method: Vertices
+Determining the new polygons.
+Remapping the Major Regions.
+Merging patient network with another network.
+Scaling factor 1.5420464313081617
+Scaling factor 1.6020199456606645
+Scaling factor 1.5853012707738603
+Scaling factor 1.9103086666992255
+Scaling factor 1.3428414747899329
+Scaling factor 1.1975067355299027
+Finding the outlet nodes.
+Setting outlet nodes.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Removing resistance added by the merging of networks.
+Resistance scaled: 0.867823
+Resistance scaled: 0.925258
+Resistance scaled: 0.877546
+Resistance scaled: 0.945517
+Resistance scaled: 0.875430
+Resistance scaled: 0.741539
+Assigning numbers to the nodes.
+Writing topology to Generated_Patients/patient_0//bf_sim/Topology.vtp
+Finding outlets close to the surface.
+Loading surface: /home/raymond/Desktop/repo/1d-blood-flow/DataFiles//Clustering_Lib/BH0027_ColorCoded.CNG/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Maximum timestep: 3.2e-05 s
+Timestep set to maximum timestep: 3.2e-05 s
+Writing the Model parameters to Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing simulation files.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Writing the vessel Atlas to file: Generated_Patients/patient_0//bf_sim/Mapping.csv
+Writing Topology file to Generated_Patients/patient_0//bf_sim/System.top
+Writing parameter file to Generated_Patients/patient_0//bf_sim/System.par
+Writing Flow Profiles.
+Writing run file to Generated_Patients/patient_0//bf_sim/Run.txt
+Writing the Model parameters to Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing Clots to file.
+Writing the mapping per region to file: Generated_Patients/patient_0//bf_sim/RegionMap.csv
+Writing surface node mapping to file: Generated_Patients/patient_0//bf_sim/SurfaceNodesMapping.csv
+Writing Clustering map to file: Generated_Patients/patient_0//bf_sim/Clusters.csv
+Writing Clustering to file: Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Saving to Generated_Patients/patient_0//bf_sim/PrimalGraph.vtp
+Saving to Generated_Patients/patient_0//bf_sim/DualGraph.vtp
+Saving to Generated_Patients/patient_0//bf_sim/DualGraphEdges.vtp
+Mapping Clustering to a MSH file.
+Loading surface: Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Loading MSH: Generated_Patients/patient_0//bf_sim/labelled_vol_mesh.msh
+Writing MSH: Generated_Patients/patient_0//bf_sim/clustered_mesh.msh
+Time elapsed (hh:mm:ss.ms) 0:01:20.264768
+Patient folder: ../Generated_Patients/patient_0//
+Loading ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Using anatomy files as defined in modelling parameters.
+Only using CoW file.
+Loading anatomy from ../Generated_Patients/patient_0//1-D_Anatomy_Patient.txt
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Loading ../Generated_Patients/patient_0//config.xml
+Importing Clots.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: /home/raymond/Desktop/1d-blood-flow/Blood_Flow_1D/
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//MappingSystemVessels.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: ../Generated_Patients/patient_0//
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//Brava/BH0025_ColorCoded.CNG.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/PialSurface.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Optimizing alignment between the mesh and the outlets.
+Optimization terminated successfully.
+         Current function value: 495.568897
+         Iterations: 86
+         Function evaluations: 162
+[1.08106622e+00 2.35733842e-04 1.02074239e-04 1.38959661e-05
+ 6.10344424e-04 3.71439292e-04 2.03671587e-04]
+Calculating the dual graph.
+Calculating the triangle centers.
+Calculating the connections.
+Method: Vertices
+Determining the new polygons.
+Remapping the Major Regions.
+Merging patient network with another network.
+Scaling factor 1.2414159828121065
+Scaling factor 1.1140265852008437
+Scaling factor 1.3077813375922538
+Scaling factor 1.631434400195467
+Scaling factor 1.3716153102004236
+Scaling factor 1.2036272945886677
+Finding the outlet nodes.
+Setting outlet nodes.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Removing resistance added by the merging of networks.
+Resistance scaled: 0.558530
+Resistance scaled: 0.767042
+Resistance scaled: 0.880555
+Resistance scaled: 0.782123
+Resistance scaled: 0.889052
+Resistance scaled: 0.907156
+Assigning numbers to the nodes.
+Writing topology to ../Generated_Patients/patient_0//bf_sim/Topology.vtp
+Finding outlets close to the surface.
+Loading surface: /home/raymond/Desktop/1d-blood-flow/DataFiles//Clustering_Lib/BH0025_ColorCoded.CNG/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Maximum timestep: 1.1e-05 s
+Timestep set to maximum timestep: 1.1e-05 s
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing simulation files.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Writing the vessel Atlas to file: ../Generated_Patients/patient_0//bf_sim/Mapping.csv
+Writing Topology file to ../Generated_Patients/patient_0//bf_sim/System.top
+Writing parameter file to ../Generated_Patients/patient_0//bf_sim/System.par
+Writing Flow Profiles.
+Writing run file to ../Generated_Patients/patient_0//bf_sim/Run.txt
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing Clots to file.
+Writing the mapping per region to file: ../Generated_Patients/patient_0//bf_sim/RegionMap.csv
+Writing surface node mapping to file: ../Generated_Patients/patient_0//bf_sim/SurfaceNodesMapping.csv
+Writing Clustering map to file: ../Generated_Patients/patient_0//bf_sim/Clusters.csv
+Writing Clustering to file: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/PrimalGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraphEdges.vtp
+Mapping Clustering to a MSH file.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Loading MSH: ../Generated_Patients/patient_0//bf_sim/labelled_vol_mesh.msh
+Writing MSH: ../Generated_Patients/patient_0//bf_sim/clustered_mesh.msh
+Time elapsed (hh:mm:ss.ms) 0:01:10.951866
+Patient folder: ../Generated_Patients/patient_0//
+Loading ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Using anatomy files as defined in modelling parameters.
+Only using CoW file.
+Loading anatomy from ../Generated_Patients/patient_0//1-D_Anatomy_Patient.txt
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Loading ../Generated_Patients/patient_0//config.xml
+Importing Clots.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: /home/raymond/Desktop/1d-blood-flow/Blood_Flow_1D/
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//MappingSystemVessels.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: ../Generated_Patients/patient_0//
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//Brava/BH0027_ColorCoded.CNG.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/PialSurface.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Optimizing alignment between the mesh and the outlets.
+Optimization terminated successfully.
+         Current function value: 486.081136
+         Iterations: 333
+         Function evaluations: 549
+[ 1.17228368  3.36490278 -0.14530203  1.31375049  0.05195582  0.01658821
+ -4.80916074]
+Calculating the dual graph.
+Calculating the triangle centers.
+Calculating the connections.
+Method: Vertices
+Determining the new polygons.
+Remapping the Major Regions.
+Merging patient network with another network.
+Scaling factor 1.5420464313081617
+Scaling factor 1.6020199456606645
+Scaling factor 1.5853012707738603
+Scaling factor 1.9103086666992255
+Scaling factor 1.3428414747899329
+Scaling factor 1.1975067355299027
+Finding the outlet nodes.
+Setting outlet nodes.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Removing resistance added by the merging of networks.
+Resistance scaled: 0.823764
+Resistance scaled: 0.900344
+Resistance scaled: 0.836728
+Resistance scaled: 0.927355
+Resistance scaled: 0.833906
+Resistance scaled: 0.655385
+Assigning numbers to the nodes.
+Writing topology to ../Generated_Patients/patient_0//bf_sim/Topology.vtp
+Finding outlets close to the surface.
+Loading surface: /home/raymond/Desktop/1d-blood-flow/DataFiles//Clustering_Lib/BH0027_ColorCoded.CNG/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Maximum timestep: 3.2e-05 s
+Timestep set to maximum timestep: 3.2e-05 s
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing simulation files.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Writing the vessel Atlas to file: ../Generated_Patients/patient_0//bf_sim/Mapping.csv
+Writing Topology file to ../Generated_Patients/patient_0//bf_sim/System.top
+Writing parameter file to ../Generated_Patients/patient_0//bf_sim/System.par
+Writing Flow Profiles.
+Writing run file to ../Generated_Patients/patient_0//bf_sim/Run.txt
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing Clots to file.
+Writing the mapping per region to file: ../Generated_Patients/patient_0//bf_sim/RegionMap.csv
+Writing surface node mapping to file: ../Generated_Patients/patient_0//bf_sim/SurfaceNodesMapping.csv
+Writing Clustering map to file: ../Generated_Patients/patient_0//bf_sim/Clusters.csv
+Writing Clustering to file: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/PrimalGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraphEdges.vtp
+Mapping Clustering to a MSH file.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Loading MSH: ../Generated_Patients/patient_0//bf_sim/labelled_vol_mesh.msh
+Writing MSH: ../Generated_Patients/patient_0//bf_sim/clustered_mesh.msh
+Time elapsed (hh:mm:ss.ms) 0:01:19.956901
+Patient folder: ../Generated_Patients/patient_0//
+Loading ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Using anatomy files as defined in modelling parameters.
+Only using CoW file.
+Loading anatomy from ../Generated_Patients/patient_0//1-D_Anatomy_Patient.txt
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Loading ../Generated_Patients/patient_0//config.xml
+Importing Clots.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: /home/raymond/Desktop/1d-blood-flow/Blood_Flow_1D/
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//MappingSystemVessels.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: ../Generated_Patients/patient_0//
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//Brava/BH0027_ColorCoded.CNG.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/PialSurface.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Optimizing alignment between the mesh and the outlets.
+Optimization terminated successfully.
+         Current function value: 486.081136
+         Iterations: 333
+         Function evaluations: 549
+[ 1.17228368  3.36490278 -0.14530203  1.31375049  0.05195582  0.01658821
+ -4.80916074]
+Calculating the dual graph.
+Calculating the triangle centers.
+Calculating the connections.
+Method: Vertices
+Determining the new polygons.
+Remapping the Major Regions.
+Merging patient network with another network.
+Scaling factor 1.5420464313081617
+Scaling factor 1.6020199456606645
+Scaling factor 1.5853012707738603
+Scaling factor 1.9103086666992255
+Scaling factor 1.3428414747899329
+Scaling factor 1.1975067355299027
+Finding the outlet nodes.
+Setting outlet nodes.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Removing resistance added by the merging of networks.
+Resistance scaled: 0.867823
+Resistance scaled: 0.925258
+Resistance scaled: 0.877546
+Resistance scaled: 0.945517
+Resistance scaled: 0.875430
+Resistance scaled: 0.741539
+Assigning numbers to the nodes.
+Writing topology to ../Generated_Patients/patient_0//bf_sim/Topology.vtp
+Finding outlets close to the surface.
+Loading surface: /home/raymond/Desktop/1d-blood-flow/DataFiles//Clustering_Lib/BH0027_ColorCoded.CNG/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Maximum timestep: 3.2e-05 s
+Timestep set to maximum timestep: 3.2e-05 s
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing simulation files.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Writing the vessel Atlas to file: ../Generated_Patients/patient_0//bf_sim/Mapping.csv
+Writing Topology file to ../Generated_Patients/patient_0//bf_sim/System.top
+Writing parameter file to ../Generated_Patients/patient_0//bf_sim/System.par
+Writing Flow Profiles.
+Writing run file to ../Generated_Patients/patient_0//bf_sim/Run.txt
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing Clots to file.
+Writing the mapping per region to file: ../Generated_Patients/patient_0//bf_sim/RegionMap.csv
+Writing surface node mapping to file: ../Generated_Patients/patient_0//bf_sim/SurfaceNodesMapping.csv
+Writing Clustering map to file: ../Generated_Patients/patient_0//bf_sim/Clusters.csv
+Writing Clustering to file: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/PrimalGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraphEdges.vtp
+Mapping Clustering to a MSH file.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Loading MSH: ../Generated_Patients/patient_0//bf_sim/labelled_vol_mesh.msh
+Writing MSH: ../Generated_Patients/patient_0//bf_sim/clustered_mesh.msh
+Time elapsed (hh:mm:ss.ms) 0:01:19.610207
+Patient folder: ../Generated_Patients/patient_0//
+Loading ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Using anatomy files as defined in modelling parameters.
+Only using CoW file.
+Loading anatomy from ../Generated_Patients/patient_0//1-D_Anatomy_Patient.txt
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Loading ../Generated_Patients/patient_0//config.xml
+Importing Clots.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: /home/raymond/Desktop/1d-blood-flow/Blood_Flow_1D/
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//MappingSystemVessels.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: ../Generated_Patients/patient_0//
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//Brava/BH0027_ColorCoded.CNG.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/PialSurface.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Optimizing alignment between the mesh and the outlets.
+Optimization terminated successfully.
+         Current function value: 486.081136
+         Iterations: 333
+         Function evaluations: 549
+[ 1.17228368  3.36490278 -0.14530203  1.31375049  0.05195582  0.01658821
+ -4.80916074]
+Calculating the dual graph.
+Calculating the triangle centers.
+Calculating the connections.
+Method: Vertices
+Determining the new polygons.
+Remapping the Major Regions.
+Merging patient network with another network.
+Scaling factor 1.5420464313081617
+Scaling factor 1.6020199456606645
+Scaling factor 1.5853012707738603
+Scaling factor 1.9103086666992255
+Scaling factor 1.3428414747899329
+Scaling factor 1.1975067355299027
+Finding the outlet nodes.
+Setting outlet nodes.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Removing resistance added by the merging of networks.
+Resistance scaled: 0.823764
+Resistance scaled: 0.900344
+Resistance scaled: 0.836728
+Resistance scaled: 0.927355
+Resistance scaled: 0.833906
+Resistance scaled: 0.655385
+Assigning numbers to the nodes.
+Writing topology to ../Generated_Patients/patient_0//bf_sim/Topology.vtp
+Finding outlets close to the surface.
+Loading surface: /home/raymond/Desktop/1d-blood-flow/DataFiles//Clustering_Lib/BH0027_ColorCoded.CNG/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Maximum timestep: 3.2e-05 s
+Timestep set to maximum timestep: 3.2e-05 s
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing simulation files.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Writing the vessel Atlas to file: ../Generated_Patients/patient_0//bf_sim/Mapping.csv
+Writing Topology file to ../Generated_Patients/patient_0//bf_sim/System.top
+Writing parameter file to ../Generated_Patients/patient_0//bf_sim/System.par
+Writing Flow Profiles.
+Writing run file to ../Generated_Patients/patient_0//bf_sim/Run.txt
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing Clots to file.
+Writing the mapping per region to file: ../Generated_Patients/patient_0//bf_sim/RegionMap.csv
+Writing surface node mapping to file: ../Generated_Patients/patient_0//bf_sim/SurfaceNodesMapping.csv
+Writing Clustering map to file: ../Generated_Patients/patient_0//bf_sim/Clusters.csv
+Writing Clustering to file: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/PrimalGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraphEdges.vtp
+Mapping Clustering to a MSH file.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Loading MSH: ../Generated_Patients/patient_0//bf_sim/labelled_vol_mesh.msh
+Writing MSH: ../Generated_Patients/patient_0//bf_sim/clustered_mesh.msh
+Time elapsed (hh:mm:ss.ms) 0:01:21.271111
+Patient folder: ../Generated_Patients/patient_0//
+Loading ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Using anatomy files as defined in modelling parameters.
+Only using CoW file.
+Loading anatomy from ../Generated_Patients/patient_0//1-D_Anatomy_Patient.txt
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Loading ../Generated_Patients/patient_0//config.xml
+Importing Clots.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: /home/raymond/Desktop/1d-blood-flow/Blood_Flow_1D/
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//MappingSystemVessels.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: ../Generated_Patients/patient_0//
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//Brava/BH0025_ColorCoded.CNG.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/PialSurface.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Optimizing alignment between the mesh and the outlets.
+Optimization terminated successfully.
+         Current function value: 495.568897
+         Iterations: 86
+         Function evaluations: 162
+[1.08106622e+00 2.35733842e-04 1.02074239e-04 1.38959661e-05
+ 6.10344424e-04 3.71439292e-04 2.03671587e-04]
+Calculating the dual graph.
+Calculating the triangle centers.
+Calculating the connections.
+Method: Vertices
+Determining the new polygons.
+Remapping the Major Regions.
+Merging patient network with another network.
+Scaling factor 1.2414159828121065
+Scaling factor 1.1140265852008437
+Scaling factor 1.3077813375922538
+Scaling factor 1.631434400195467
+Scaling factor 1.3716153102004236
+Scaling factor 1.2036272945886677
+Finding the outlet nodes.
+Setting outlet nodes.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Removing resistance added by the merging of networks.
+Resistance scaled: 0.558530
+Resistance scaled: 0.767042
+Resistance scaled: 0.880555
+Resistance scaled: 0.782123
+Resistance scaled: 0.889052
+Resistance scaled: 0.907156
+Assigning numbers to the nodes.
+Writing topology to ../Generated_Patients/patient_0//bf_sim/Topology.vtp
+Finding outlets close to the surface.
+Loading surface: /home/raymond/Desktop/1d-blood-flow/DataFiles//Clustering_Lib/BH0025_ColorCoded.CNG/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Maximum timestep: 1.1e-05 s
+Timestep set to maximum timestep: 1.1e-05 s
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing simulation files.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Writing the vessel Atlas to file: ../Generated_Patients/patient_0//bf_sim/Mapping.csv
+Writing Topology file to ../Generated_Patients/patient_0//bf_sim/System.top
+Writing parameter file to ../Generated_Patients/patient_0//bf_sim/System.par
+Writing Flow Profiles.
+Writing run file to ../Generated_Patients/patient_0//bf_sim/Run.txt
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing Clots to file.
+Writing the mapping per region to file: ../Generated_Patients/patient_0//bf_sim/RegionMap.csv
+Writing surface node mapping to file: ../Generated_Patients/patient_0//bf_sim/SurfaceNodesMapping.csv
+Writing Clustering map to file: ../Generated_Patients/patient_0//bf_sim/Clusters.csv
+Writing Clustering to file: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/PrimalGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraphEdges.vtp
+Mapping Clustering to a MSH file.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Loading MSH: ../Generated_Patients/patient_0//bf_sim/labelled_vol_mesh.msh
+Writing MSH: ../Generated_Patients/patient_0//bf_sim/clustered_mesh.msh
+Time elapsed (hh:mm:ss.ms) 0:01:09.272335
+Patient folder: ../Generated_Patients/patient_0//
+Loading ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Using anatomy files as defined in modelling parameters.
+Only using CoW file.
+Loading anatomy from ../Generated_Patients/patient_0//1-D_Anatomy_Patient.txt
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Loading ../Generated_Patients/patient_0//config.xml
+Importing Clots.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: /home/raymond/Desktop/1d-blood-flow/Blood_Flow_1D/
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//MappingSystemVessels.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: ../Generated_Patients/patient_0//
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//Brava/BH0025_ColorCoded.CNG.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/PialSurface.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Optimizing alignment between the mesh and the outlets.
+Optimization terminated successfully.
+         Current function value: 495.568897
+         Iterations: 86
+         Function evaluations: 162
+[1.08106622e+00 2.35733842e-04 1.02074239e-04 1.38959661e-05
+ 6.10344424e-04 3.71439292e-04 2.03671587e-04]
+Calculating the dual graph.
+Calculating the triangle centers.
+Calculating the connections.
+Method: Vertices
+Determining the new polygons.
+Remapping the Major Regions.
+Merging patient network with another network.
+Scaling factor 1.2414159828121065
+Scaling factor 1.1140265852008437
+Scaling factor 1.3077813375922538
+Scaling factor 1.631434400195467
+Scaling factor 1.3716153102004236
+Scaling factor 1.2036272945886677
+Finding the outlet nodes.
+Setting outlet nodes.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Removing resistance added by the merging of networks.
+Resistance scaled: 0.533685
+Resistance scaled: 0.753931
+Resistance scaled: 0.873833
+Resistance scaled: 0.769861
+Resistance scaled: 0.882808
+Resistance scaled: 0.901931
+Assigning numbers to the nodes.
+Writing topology to ../Generated_Patients/patient_0//bf_sim/Topology.vtp
+Finding outlets close to the surface.
+Loading surface: /home/raymond/Desktop/1d-blood-flow/DataFiles//Clustering_Lib/BH0025_ColorCoded.CNG/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Maximum timestep: 1.1e-05 s
+Timestep set to maximum timestep: 1.1e-05 s
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing simulation files.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Writing the vessel Atlas to file: ../Generated_Patients/patient_0//bf_sim/Mapping.csv
+Writing Topology file to ../Generated_Patients/patient_0//bf_sim/System.top
+Writing parameter file to ../Generated_Patients/patient_0//bf_sim/System.par
+Writing Flow Profiles.
+Writing run file to ../Generated_Patients/patient_0//bf_sim/Run.txt
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing Clots to file.
+Writing the mapping per region to file: ../Generated_Patients/patient_0//bf_sim/RegionMap.csv
+Writing surface node mapping to file: ../Generated_Patients/patient_0//bf_sim/SurfaceNodesMapping.csv
+Writing Clustering map to file: ../Generated_Patients/patient_0//bf_sim/Clusters.csv
+Writing Clustering to file: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/PrimalGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraphEdges.vtp
+Mapping Clustering to a MSH file.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Loading MSH: ../Generated_Patients/patient_0//bf_sim/labelled_vol_mesh.msh
+Writing MSH: ../Generated_Patients/patient_0//bf_sim/clustered_mesh.msh
+Time elapsed (hh:mm:ss.ms) 0:01:08.854926
+Patient folder: ../Generated_Patients/patient_0//
+Loading ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Using anatomy files as defined in modelling parameters.
+Only using CoW file.
+Loading anatomy from ../Generated_Patients/patient_0//1-D_Anatomy_Patient.txt
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Loading ../Generated_Patients/patient_0//config.xml
+Importing Clots.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: /home/raymond/Desktop/1d-blood-flow/Blood_Flow_1D/
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//MappingSystemVessels.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Patient folder: ../Generated_Patients/patient_0//
+Loading /home/raymond/Desktop/1d-blood-flow/DataFiles//Brava/BH0025_ColorCoded.CNG.vtp
+Finding the bifurcation nodes.
+Finding the largest 3 inlets.
+Setting inlet nodes.
+Finding the outlet nodes.
+Setting outlet nodes.
+Checking for disconnected nodes.
+None Found.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/PialSurface.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Optimizing alignment between the mesh and the outlets.
+Optimization terminated successfully.
+         Current function value: 495.568897
+         Iterations: 86
+         Function evaluations: 162
+[1.08106622e+00 2.35733842e-04 1.02074239e-04 1.38959661e-05
+ 6.10344424e-04 3.71439292e-04 2.03671587e-04]
+Calculating the dual graph.
+Calculating the triangle centers.
+Calculating the connections.
+Method: Vertices
+Determining the new polygons.
+Remapping the Major Regions.
+Merging patient network with another network.
+Scaling factor 1.2414159828121065
+Scaling factor 1.1140265852008437
+Scaling factor 1.3077813375922538
+Scaling factor 1.631434400195467
+Scaling factor 1.3716153102004236
+Scaling factor 1.2036272945886677
+Finding the outlet nodes.
+Setting outlet nodes.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Removing resistance added by the merging of networks.
+Resistance scaled: 0.533685
+Resistance scaled: 0.753931
+Resistance scaled: 0.873833
+Resistance scaled: 0.769861
+Resistance scaled: 0.882808
+Resistance scaled: 0.901931
+Assigning numbers to the nodes.
+Writing topology to ../Generated_Patients/patient_0//bf_sim/Topology.vtp
+Finding outlets close to the surface.
+Loading surface: /home/raymond/Desktop/1d-blood-flow/DataFiles//Clustering_Lib/BH0025_ColorCoded.CNG/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Maximum timestep: 1.1e-05 s
+Timestep set to maximum timestep: 1.1e-05 s
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing simulation files.
+Assigning numbers to the nodes.
+Checking for disconnected nodes.
+None Found.
+Writing the vessel Atlas to file: ../Generated_Patients/patient_0//bf_sim/Mapping.csv
+Writing Topology file to ../Generated_Patients/patient_0//bf_sim/System.top
+Writing parameter file to ../Generated_Patients/patient_0//bf_sim/System.par
+Writing Flow Profiles.
+Writing run file to ../Generated_Patients/patient_0//bf_sim/Run.txt
+Writing the Model parameters to ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing: ../Generated_Patients/patient_0//bf_sim/Model_parameters.txt
+Writing Clots to file.
+Writing the mapping per region to file: ../Generated_Patients/patient_0//bf_sim/RegionMap.csv
+Writing surface node mapping to file: ../Generated_Patients/patient_0//bf_sim/SurfaceNodesMapping.csv
+Writing Clustering map to file: ../Generated_Patients/patient_0//bf_sim/Clusters.csv
+Writing Clustering to file: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/PrimalGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraph.vtp
+Saving to ../Generated_Patients/patient_0//bf_sim/DualGraphEdges.vtp
+Mapping Clustering to a MSH file.
+Loading surface: ../Generated_Patients/patient_0//bf_sim/Clustering.vtp
+Calculating area per triangle.
+Converting pialSurface to a weighted Graph.
+Loading MSH: ../Generated_Patients/patient_0//bf_sim/labelled_vol_mesh.msh
+Writing MSH: ../Generated_Patients/patient_0//bf_sim/clustered_mesh.msh
+Time elapsed (hh:mm:ss.ms) 0:01:09.095688

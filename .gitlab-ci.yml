@@ -1,0 +1,73 @@
+stages:
+        - containerise
+        - verify
+
+variables:
+        GIT_STRATEGY: clone
+        GIT_SUBMODULE_STRATEGY: recursive
+        MOUNT_POINT: /builds/$CI_PROJECT_PATH/mnt
+        DOCKER_TLS_CERTDIR: "/certs"
+        DOCKER_DRIVER: overlay2
+        CONTAINER: containers
+        IMAGE: 1d-blood-flow
+
+cache: &global_cache
+        paths:
+                - ${CONTAINER}/
+        key: ${CI_COMMIT_REF_SLUG}
+        policy: pull-push
+
+.shared_hidden_key: &docker_definition
+        image: docker:20.10.6
+        services:
+                - docker:20.10.6-dind
+
+build_docker:
+        <<: *docker_definition
+        cache:
+                <<: *global_cache
+                policy: push
+        stage: containerise
+        script:
+                - docker build -t ${IMAGE} ./
+                - mkdir -p ${CONTAINER}
+                - docker save ${IMAGE} > ${CONTAINER}/docker.tar
+
+verify_docker:
+        <<: *docker_definition
+        cache:
+                <<: *global_cache
+                policy: pull
+        stage: verify
+        script:
+                - docker load -i ${CONTAINER}/docker.tar
+                - mkdir -p ${MOUNT_POINT}/docker
+                - cp -R DataFiles ${MOUNT_POINT}/docker/
+                - docker run -v ${MOUNT_POINT}/docker/DataFiles/patient:/patient ${IMAGE} /patient/patient.yml 0 test
+
+build_singularity:
+        <<: *docker_definition
+        cache:
+                <<: *global_cache
+                policy: push
+        stage: containerise
+        script:
+                - sed -i 's/\.\/ \/app/\/app \/app/' singularity.def
+                - mkdir -p ${MOUNT_POINT}
+                - cp $(ls -p | grep -v /) ${MOUNT_POINT}/
+                - cp -R Blood_Flow_1D DataFiles Generated_Patients Pulsatile_Model in-silico-trial ${MOUNT_POINT}/
+                - docker run --privileged -v ${MOUNT_POINT}:/app quay.io/singularity/singularity:v3.6.2 build /app/${IMAGE}.sif /app/singularity.def
+                - mkdir -p ${CONTAINER}
+                - cp ${MOUNT_POINT}/${IMAGE}.sif ${CONTAINER}/singularity.sif
+
+verify_singularity:
+        <<: *docker_definition
+        cache:
+                <<: *global_cache
+                policy: pull
+        stage: verify
+        script:
+                - mkdir -p ${MOUNT_POINT}/singularity
+                - cp ${CONTAINER}/singularity.sif ${MOUNT_POINT}/singularity/${IMAGE}.sif
+                - cp -R DataFiles ${MOUNT_POINT}/singularity/
+                - docker run --privileged -v ${MOUNT_POINT}/singularity/:/cicd quay.io/singularity/singularity:v3.6.2 run -B /cicd/DataFiles/patient:/patient /cicd/${IMAGE}.sif /patient/patient.yml 0 test

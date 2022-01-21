@@ -1,0 +1,16 @@
+scipy==1.5.4
+tqdm==4.61.0
+mgmetis==0.1.0
+matplotlib==3.3.4
+pyacvd==0.2.3
+h5py
+pyvista==0.30.1
+numpy
+lxml==4.6.3
+networkx==2.5.1
+pandas
+PyQt5==5.14.0
+pytest==6.2.4
+PyYAML==5.4.1
+schema==0.7.4
+vtk==8.1.2
