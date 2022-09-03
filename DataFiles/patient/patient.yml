@@ -47,7 +47,6 @@ labels:
   thrombectomy: thrombectomy
 left-or-right: R
 m1_rad_mm: 1.659
-name: Kimberly Mestas
 occlsegment_c_short: 3.0
 occlsegment_c_short_num: 5.0
 pipeline_length: 9

@@ -19,7 +19,6 @@
     <StrokeVolume>100</StrokeVolume>
     <XML_file_location>/patients/patient_0/config.xml</XML_file_location>
     <Patient_directory>/patient/</Patient_directory>
-    <Name>Thomas Escobar</Name>
     <events>
       <event name="1d-blood-flow" id="0"/>
       <event name="darcy_multi-comp" healthy="true" id="1" depend="0"/>
