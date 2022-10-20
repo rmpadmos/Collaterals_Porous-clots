@@ -1,7 +1,3 @@
-Package | Pipeline | Coverage
---- | --- | ---
-1D blood flow | ![pipeline](https://gitlab.computationalscience.nl/insist/1d-blood-flow/badges/master/pipeline.svg) | ![coverage](https://gitlab.computationalscience.nl/insist/1d-blood-flow/badges/master/coverage.svg)
-
 # Module contents
 "Blood_Flow_1D" contains the python code.
 "DataFiles" contains input files needed to run the models.
@@ -85,3 +81,8 @@ True if the steady model has used, False for pulsatile model (option will be rem
 
 # Notes
 Installing scikits.umfpack also enables using UMFPACK solver via some of the scipy.sparse.linalg functions, for SciPy >= 0.14.0.
+
+# Reference
+Please cite this paper when using this software:
+- ['Padmos, R. M., Arrarte Terreros, N., Jozsa, T. I., Zavodszky, G., Marquering, H. A., Majoie, C., Payne, S. J., & Hoekstra, A. G. (2022). Modelling collateral flow and thrombus permeability during acute ischaemic stroke. J R Soc Interface, 19(195), 20220649. https://doi.org/10.1098/rsif.2022.0649'](https://doi.org/10.1098/rsif.2022.0649) 
+
